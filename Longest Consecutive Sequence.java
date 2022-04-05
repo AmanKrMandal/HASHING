@@ -40,7 +40,7 @@ public class LongestArray {
         }
         ArrayList<Integer> mr = new ArrayList<>();
         for (int i = 0; i < maxLenght; i++) {
-            mr.add(maxStaringNO + 1);
+            mr.add(maxStaringNO + i);
         }
         return mr;
     }
