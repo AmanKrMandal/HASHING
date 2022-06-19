@@ -1,0 +1,61 @@
+body {
+  background: rgb(93, 92, 92);
+}
+
+#container {
+  background: linear-gradient(to right, #3c00ff, #1f1e25, #3700ff);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 544px;
+  width: 1088px;
+  box-shadow: 0.1px 0.1px 20px 20px rgb(217, 255, 1);
+
+}
+
+#user-score,
+#comp-score {
+  color: white;
+  position: absolute;
+  top: 12px;
+  font-size: 40px;
+}
+
+#user-score {
+  left: 262px;
+}
+
+#comp-score {
+  left: 806px;
+}
+
+img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 544px;
+  width: 40px;
+}
+
+#user-paddle,
+#comp-paddle {
+  position: absolute;
+  background: rgb(0, 255, 225);
+  height: 72px;
+  width: 10px;
+  box-shadow: 0.1px 0.1px 5px 5px rgb(139, 199, 20);
+
+}
+
+#ball {
+  background-color: rgb(255, 85, 0);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0.1px 0.1px 10px 10px rgb(164, 201, 120);
+}
